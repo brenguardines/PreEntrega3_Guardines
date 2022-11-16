@@ -15,7 +15,7 @@
 .imagen_index {
     width: 300px;
     height: 150px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 200px;
     
 }
@@ -26,10 +26,11 @@
 }
 
 section {
-    border: double 2px rgb(229, 96, 96);
+    border: double 2px $color-principal;
     width: 275px;
     height: 475px;
     margin-top: 30px;
+    margin-bottom: 40px;
 
     /* los acomodo con flex */
     display: flex;
@@ -50,7 +51,7 @@ section {
     
     button {
         border-radius: 5px;
-        background-color: rgb(229, 96, 96);
+        background-color: $color-principal;
         width: 100px;
         height: 50px;
         cursor: pointer;
@@ -67,7 +68,7 @@ section {
 }
 
 .contenedor_noticia{
-    border: double 2px rgb(229, 96, 96);
+    border: double 2px $color-principal;
     width: 98%;
     height: 150px;
 
@@ -98,7 +99,7 @@ section {
 }
 
 .contenedor_formulario{
-    border: double 2px rgb(229, 96, 96);
+    border: double 2px $color-principal;
     width: 400px;
     height: 500px;
     margin: 0 auto;

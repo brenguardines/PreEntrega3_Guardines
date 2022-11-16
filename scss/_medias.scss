@@ -52,7 +52,7 @@
     }
 
     .contenedor_noticia{
-        border: double 2px rgb(229, 96, 96);
+        border: double 2px $color-principal;
         width: 98%;
         height: 320px;
     
@@ -111,6 +111,7 @@
     .imagen_index {
         width: 250;
         height: 125px;
+        margin-top: 100px;
     }
 
     .gridPadrePeliculas {
@@ -154,7 +155,7 @@
     }
 
     .contenedor_noticia {
-        border: double 2px rgb(229, 96, 96);
+        border: double 2px $color-principal;
         width: 275px;
         height: 670px;
     
